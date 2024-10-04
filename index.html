@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjetas Personalizables</title>
+    <link rel="stylesheet" href="./css/estilo.css">
+</head>
+<body>
+    <header>
+        <h1>Personaliza tus tarjetas!</h1>
+    </header>
+
+    <div class="contenedor">
+        <div class="opciones">
+            <label for="tarjetaTipo">Selecciona la temática:</label>
+            <select id="tarjetaTipo">
+                <option value="cumple">Cumpleaños</option>
+                <option value="sanValentin">San Valentín</option>
+                <option value="navidad">Navidad</option>
+            </select>
+
+            <label for="colorTarjeta">Color de fondo:</label>
+            <input type="color" id="colorTarjeta">
+            <label for="tarjetaTexto">Texto de la tarjeta:</label>
+            <input type="text" id="tarjetaTexto" placeholder="Escribe tu mensaje">
+
+            <label for="colorTexto">Color del texto:</label>
+            <input type="color" id="colorTexto">
+
+            <label for="bordeTarjeta">Bordes:</label>
+            <select id="bordeTarjeta">
+                <option value="none">Sin borde</option>
+                <option value="solid">Sólido</option>
+                <option value="dotted">Punteado</option>
+                <option value="dashed">Guiones</option>
+            </select>
+
+            <label for="colorBorde">Color del borde:</label>
+            <input type="color" id="colorBorde">
+
+            <button id="aplicarCambios">Aplicar Cambios</button>
+        </div>
+        <div class="imagenes-seleccion" id="imagenesSeleccion">
+         
+        </div>
+
+        <div class="tarjeta" id="tarjeta">
+            <img id="imagenTarjeta" src="img/CumP.png" alt="Tarjeta" class="imagen-tarjeta">
+            <p id="mensajeTarjeta">¡Feliz Cumpleaños!</p>
+        </div>
+    </div>
+
+    <footer>Frameworks EVN 402</footer>
+    <script src="./js/script.js"></script>
+</body>
+</html>
+

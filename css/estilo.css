@@ -1,0 +1,119 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e1e1e1;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+header {
+    background-color: #2b4047;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    height: 100px;
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+footer{
+    background-color: #2b4047;
+    color: white;
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 70%;
+    margin: 20px 0;
+}
+
+.opciones {
+    margin: 20px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.opciones label {
+    margin-top: 10px;
+}
+
+.tarjeta {
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 10px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.imagen-tarjeta {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+.tarjeta {
+    text-align: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+
+#mensajeTarjeta {
+    font-size: 30px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.imagenes-seleccion {
+    display: flex;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.imagen-opcion {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.imagen-opcion:hover {
+    transform: scale(1.1);
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #204956;
+    color: white;
+    font-family: 'Segoe UI';
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #16343d;
+}
